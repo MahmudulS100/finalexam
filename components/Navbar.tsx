@@ -97,14 +97,17 @@ export function Navbar() {
               </NavigationMenuLink>
             </NavigationMenuItem>
 
-            {/* Help Link */}
+            {/* Git 1 Link */}
             <NavigationMenuItem>
-              <Link href="/help" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  <HelpCircle className="mr-2 h-4 w-4 text-accent" />
-                  Help
-                </NavigationMenuLink>
-              </Link>
+              <NavigationMenuLink
+                href="https://github.com/MahmudulS100/Exam-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={navigationMenuTriggerStyle()}
+              >
+                <HelpCircle className="mr-2 h-4 w-4 text-accent" />
+                Git 1
+              </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
