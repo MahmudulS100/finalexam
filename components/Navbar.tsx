@@ -87,7 +87,7 @@ export function Navbar() {
             {/* Exam 1 Link */}
             <NavigationMenuItem>
               <NavigationMenuLink
-                href="https://www.samisaccount.com/"
+                href="https://exam-1-umber.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={navigationMenuTriggerStyle()}
