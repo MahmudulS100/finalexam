@@ -84,14 +84,17 @@ export function Navbar() {
               </NavigationMenuContent>
             </NavigationMenuItem>
 
-            {/* Contact Link */}
+            {/* Exam 1 Link */}
             <NavigationMenuItem>
-              <Link href="/contact" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  <Mail className="mr-2 h-4 w-4 text-secondary" />
-                  Contact
-                </NavigationMenuLink>
-              </Link>
+              <NavigationMenuLink
+                href="https://www.samisaccount.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={navigationMenuTriggerStyle()}
+              >
+                <Mail className="mr-2 h-4 w-4 text-secondary" />
+                Exam 1
+              </NavigationMenuLink>
             </NavigationMenuItem>
 
             {/* Help Link */}
